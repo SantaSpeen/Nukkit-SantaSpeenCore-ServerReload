@@ -1,4 +1,4 @@
-# ServerReload
+# ServerReloader
 
 Commands reload and stop may use only in console.
 
