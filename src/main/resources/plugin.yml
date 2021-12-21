@@ -1,0 +1,21 @@
+name: ServerReloader
+version: 1.0
+api: 1.0.0
+author: SantaSpeen
+description: For reload and Stop server
+main: ru.santaspeen.reloadServer.Reload
+
+commands:
+  reload:
+    permission: sscrs.command.reload
+  stop:
+    permission: sscrs.command.reload
+
+permissions:
+  sscrs.command:
+    default: op
+    children:
+      sscrs.command.reload:
+        default: op
+      sscrs.command.stop:
+        default: op
