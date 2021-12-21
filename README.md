@@ -1,4 +1,4 @@
-# Nukkit-ServerReload
+# ServerReload
 
 Commands reload and stop may use only in console.
 
